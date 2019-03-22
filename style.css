@@ -2,16 +2,11 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 
-* {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	font-family: 'Roboto', sans-serif;
 	max-width: 800px;
 	margin: 50px auto;
-	padding: 70px;
+	padding: 70px 70px 20px;
 	background: #FFF;
 	color: #444;
 	font-size: 15px;
@@ -20,8 +15,6 @@ body {
 }
 
 a {
-	margin: 0;
-	padding: 0 3px;
 	border: none;
 	text-decoration: none;
 	color: #049;
@@ -32,69 +25,119 @@ a:hover {
 	text-decoration: underline;
 }
 
-h1 {
-	margin: 0 0 30px;
-	font-size: 36px;
-	font-weight: bold;
+.profile {
+	margin: 20px 0;
 }
 
-h1::before {
-	content: "■";
-	display: inline-block;
-	margin: 0 5px 0 0;
-	color: #255E69;
-	font-size: 0.8em;
-	vertical-align: middle;
-}
-
-h2 {
-	margin: 50px 0 20px;
-	padding: 0 0 0 5px;
-	border-left: solid 5px #255E69;
-	border-bottom: solid 1px #255E69;
+.profile_name {
 	font-size: 24px;
 }
 
-h3 {
-	margin: 50px 0 20px;
+.profile_icon {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	vertical-align: bottom;
+}
+
+.profile_description {
+	margin: 10px 0 20px;
+	font-size: 18px;
+}
+
+.profile_job {
+	margin: 20px 0;
+}
+
+.accounts {
+	margin: 60px 0 0;
+}
+
+.accounts_title {
+	margin: 0;
 	padding: 0 0 0 5px;
 	border-left: solid 5px #255E69;
 	font-size: 18px;
 }
 
-h4 {
-	margin: 35px 0 15px;
-	font-size: 16px;
-	line-height: 1.2;
+.accounts_dl {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 0 10px;
+	line-height: 2;
 }
 
-h4 > small {
-	font-size: 13px;
+.accounts_dl > dt {
+	width: 10%;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	text-align: right;
 }
 
-p + p {
-	margin-top: 10px;
-}
-
-dl > dd + dt {
-	margin-top: 10px;
-}
-
-dl > dd {
+.accounts_dl > dd {
+	width: 85%;
+	margin: 0;
 	padding: 0 0 0 10px;
 }
 
-ul {
-	margin: 10px 0;
-	padding: 0 0 0 25px;
+.publicList {
+	margin: 50px 0 20px;
 }
 
-li + li {
-	margin-top: 5px;
+.publicList_category {
+	margin: 60px 0 20px;
+	padding: 0 0 0 5px;
+	border-left: solid 5px #255E69;
+	font-size: 18px;
 }
 
-footer {
-	margin: 100px 0 0;
-	padding: 5px 0;
-	border-top: solid 1px #999;
+.publicList_year {
+	margin: 10px 0 5px 15px;
+	color: #787878;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.publicList_ul {
+	list-style: none;
+	margin: 0 0 25px 15px;
+	padding: 0;
+}
+
+.publicList_ul > li {
+	margin: 0;
+	padding: 0;
+}
+
+.publicList_ul > li + li {
+	margin-top: 20px;
+}
+
+.publicList_event {
+	display: block;
+	font-size: 13px;
+}
+
+.publicList_date {
+	display: inline-block;
+	margin: 0 5px 0 0;
+	font-size: 12px;
+	color: #787878;
+	vertical-align: middle;
+}
+
+.publicList_link {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.footer {
+	margin: 80px 0 0;
+	padding: 0 10px 10px;
+}
+
+.footer_copy {
+	margin: 0;
+	color: #787878;
+	font-size: 12px;
 }
