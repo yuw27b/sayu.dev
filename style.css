@@ -48,6 +48,11 @@ a:hover {
 	margin: 20px 0;
 }
 
+.profile_ja {
+	color: #999;
+	font-size: .75em;
+}
+
 .accounts {
 	margin: 60px 0 0;
 }
