@@ -89,6 +89,12 @@ a:hover {
 	margin: 50px 0 20px;
 }
 
+.publicList_ja {
+	color: #999;
+	font-size: .75em;
+	font-weight: normal;
+}
+
 .publicList_category {
 	margin: 60px 0 20px;
 	padding: 0 0 0 5px;
