@@ -49,7 +49,7 @@ a:hover {
 }
 
 .historyText_ja {
-	color: #787878;
+	color: #666;
 	font-size: .75em;
 }
 
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .publicList_ja {
-	color: #787878;
+	color: #666;
 	font-size: .75em;
 	font-weight: normal;
 }
@@ -98,7 +98,7 @@ a:hover {
 
 .publicList_year {
 	margin: 10px 0 5px 15px;
-	color: #787878;
+	color: #666;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -127,7 +127,7 @@ a:hover {
 	display: inline-block;
 	margin: 0 5px 0 0;
 	font-size: 12px;
-	color: #787878;
+	color: #666;
 	vertical-align: middle;
 }
 
@@ -143,6 +143,6 @@ a:hover {
 
 .footer_copy {
 	margin: 0;
-	color: #787878;
+	color: #666;
 	font-size: 12px;
 }
